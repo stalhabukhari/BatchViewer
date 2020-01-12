@@ -6,6 +6,7 @@ It does not have much functionality.
 ## Installation
 * clone the repository
 * go into the repository and install with ```pip install --upgrade .```
+* In case **PyQt5** and **pyqtgraph** are not already installed, do: ```pip install PyQt5``` followed by ```pip install pyqtgraph```
 
 ## How to use
 Only works with 4D numpy arrays. Axes must be (c, x, y, z) where c is the color channel.
